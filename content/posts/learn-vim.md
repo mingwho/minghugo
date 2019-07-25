@@ -3,7 +3,7 @@ title: "Me, a millennial, learning Vim from scratch"
 date: 2019-07-24T19:26:00+04:00
 draft: false
 tags: ["Vim"]
-slug: "English Preview"
+slug: "Learn Vim"
 ---
 
 {{< figure src="/images/exit-vim.jpg" >}}
@@ -58,7 +58,7 @@ and I want to share the ones I find useful.
 
 Vim adventures is an interactive game with beautiful UI that teaches you Vim.
 As I was starting off, trying to remember `hjkl` to move the cursor was very challenging.
-Vim adventures really helped me build muscle memory as I had to use them to get the key and open treasure boxes. The first few sections of the game are free, and the remaining ones are paid.
+Vim adventures really helped me build muscle memory as I had to use them to navigate the map and open treasure boxes. The first few sections of the game are free, and the remaining ones are paid.
 Nevertheless, it is a very entertaining and educational game.
 {{< figure src="/images/vim-adventures.jpeg" >}}
 
@@ -73,19 +73,20 @@ what is the use case and benefit of each command. When you finish a challenge,
 it also shows you how many keystrokes and how much time it takes to finish it.
 So you can have a benchmark, come back and practice more to see the progress.
 After completing all the tutorials on Oni, I could easily use the basic Vim commands,
-and even something more advanced like `ci(` or `da{` etc.
+and even use something more advanced like `ci(` or `da{` etc.
 
 {{< figure src="/images/oni.gif" >}}
+PS: There seems to be some [issues](https://github.com/onivim/oni/issues/2688) with Oni interactive tutorial in the latest release. Watch out :D
 
 
-## What other tools did I discover?
+## What other tool did I discover?
 ### [Vundle](https://github.com/VundleVim/Vundle.vim)
 [Vundle](https://github.com/VundleVim/Vundle.vim) is the plugin manager for Vim. Vundle makes it very easy to install language
 specific plugins and other configurations such as themes. Its github page also has an [examples page](https://github.com/VundleVim/Vundle.vim/wiki/Examples) of people's configurations, from which I copy-pasted and happily used so far.
 
 ## What do I think about Vim now?
 After learning Vim last year and using it everyday since, my view of Vim has shifted from the struggle and confusion to embrace and understanding.
-It becomes really fast and handy for some specific text editing jobs. For example, when I squash commits with git, I don't need to change each `pick` to `s` anymore. I just need a simple `:2,10s/pick/s/g`
+It is really fast and handy for some specific text editing jobs. For example, when I squash commits with git, I don't need to change each `pick` to `s` anymore. I just need a simple `:2,10s/pick/s/g`
 and that substitutes the text to exactly what I want. I really appreciate how the creators of Vim made such a beautiful and productive tool and designed its flexibility to solve different sorts of tasks.
 
 If you haven't tried Vim or just start learning it, I hope this post helps you a little bit. If you are  a Vim guru, let's compete with some [Ninja-level](https://www.vimgolf.com/) challenges ⚔😆
